@@ -11,9 +11,10 @@ services:
     ports:
       - "5678:5678"
     environment:
-      - N8N_HOST=0.0.0.0
+      - N8N_HOST=192.168.1.25
       - N8N_PORT=5678
       - N8N_PROTOCOL=http
+      - WEBHOOK_URL=http://192.168.1.25:5678/
       - NODE_ENV=production
       - GENERIC_TIMEZONE=Europe/Madrid
       - TZ=Europe/Madrid
