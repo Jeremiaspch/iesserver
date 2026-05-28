@@ -1,0 +1,8 @@
+# Ignorar archivos ocultos del sistema
+.DS_Store
+
+# Ignorar archivos con contraseñas (por si lo usas en el futuro)
+.env
+
+# Ignorar carpetas de datos locales
+n8n_data/
